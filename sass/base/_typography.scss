@@ -10,7 +10,11 @@ $josefin: 'Josefin Sans', sans-serif;
     font-family: $josefin;
     font-size: 32px;
     letter-spacing: 1px;
-    border: solid $white;
+
+    #hero__message
+    {
+        border: solid $white;
+    }
 }
 
 

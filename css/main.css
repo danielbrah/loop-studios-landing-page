@@ -11,6 +11,8 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 32px;
   letter-spacing: 1px;
+}
+#hero #hero__message {
   border: solid hsl(0deg, 0%, 100%);
 }
 
@@ -20,7 +22,7 @@
 #hero img {
   max-width: 100%;
 }
-#hero #hero-message {
+#hero #hero__wrapper {
   position: absolute;
   top: 0;
   left: 0;
