@@ -1,7 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#hero {
+  text-transform: uppercase;
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+  border: solid hsl(0deg, 0%, 100%);
+}
+
+#hero {
+  position: relative;
+}
+#hero img {
+  max-width: 100%;
+}
+#hero #hero-message {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
