@@ -1,15 +1,32 @@
+@import '../abstracts/colors';
 #hero
 {
+    height: 650px; 
+    overflow: hidden;
+    background-image: url('/images/mobile/image-hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    img{
-        max-width: 100%;
-        // position: absolute;
+
+    &__nav
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 20px;
     }
 
-    #hero__wrapper
+    &__text
     {
+        text-transform: uppercase;
+        border: solid $white;
+        padding: 18px;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 35ch;
+        max-width: 39ch;
     }
 }

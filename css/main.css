@@ -5,27 +5,41 @@
   box-sizing: border-box;
 }
 
-#hero {
-  text-transform: uppercase;
-  color: hsl(0deg, 0%, 100%);
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 32px;
-  letter-spacing: 1px;
+html {
+  font-size: 15px;
 }
-#hero #hero__message {
-  border: solid hsl(0deg, 0%, 100%);
+
+#hero__text p {
+  color: white;
+  font-size: 36px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #hero {
+  height: 650px;
+  overflow: hidden;
+  background-image: url("/images/mobile/image-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
-#hero img {
-  max-width: 100%;
+#hero__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
 }
-#hero #hero__wrapper {
+#hero__text {
+  text-transform: uppercase;
+  border: solid hsl(0deg, 0%, 100%);
+  padding: 18px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 35ch;
+  max-width: 39ch;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,17 +3,18 @@
 $alata: 'Alata', sans-serif;
 $josefin: 'Josefin Sans', sans-serif;
 
+html{font-size: 15px;}
+
 #hero
 {
-    text-transform: uppercase;
-    color: $white;
-    font-family: $josefin;
-    font-size: 32px;
-    letter-spacing: 1px;
-
-    #hero__message
+    &__text
     {
-        border: solid $white;
+        p
+        {
+            color: white;
+            font-size: 36px;
+            font-family: $josefin;
+        }
     }
 }
 
