@@ -15,6 +15,8 @@
         align-items: center;
         justify-content: space-between;
         padding: 40px 20px;
+
+        &__menu__desktop{display: none;}
     }
 
     &__text
@@ -26,6 +28,50 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        max-width: 42ch;
+        width: 40ch;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    #hero
+    {
+        background-image: url('/images/desktop/image-hero.jpg');
+
+        &__nav
+        {
+            padding: 60px 170px;
+            &__menu__desktop
+            {
+                display: flex;
+                gap: 32px;
+
+                p{
+                    cursor: pointer;
+                    background-image: linear-gradient(white, white);
+                    background-repeat: no-repeat;
+                    background-size: 0 3px;
+                    background-position: bottom center;
+                    transition: background-size 100ms ease;
+                    padding-bottom: 8px;
+
+                    &:hover{
+                        background-size: 50% 3px;
+                    }
+                }
+            }
+        }
+
+        &__text
+        {
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: none;
+            margin-left: 170px;
+            width: 100%;
+            max-width: 85ch;
+            padding: 32px;
+            margin-top: 70px;
+        }
     }
 }
