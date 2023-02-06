@@ -30,6 +30,19 @@ html{font-size: 15px;}
     }
 }
 
+#hero__nav__menu__mobile
+{
+    &__wrapper
+    {
+        color: white;
+        font-family: $josefin;
+        text-transform: uppercase;
+
+        p
+        {font-size: 32px;}
+    }
+}
+
 @media only screen and (min-width: 1440px)
 {
     #hero
