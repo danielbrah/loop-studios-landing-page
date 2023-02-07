@@ -5,10 +5,12 @@ navOpen.addEventListener('click', () =>{
     navMenu.style.left = '0px'
     navMenu.style.opacity = '1'
     navMenu.style.visibility = 'visible'
+    document.body.style.overflow = 'hidden'
 })
 
 navClose.addEventListener('click', () =>{
     navMenu.style.left = '-5px'
     navMenu.style.opacity = '0'
     navMenu.style.visibility = 'hidden'
+    document.body.style.overflow = 'auto'
 })

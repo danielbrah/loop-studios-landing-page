@@ -124,13 +124,13 @@ html {
 }
 #hero__nav__menu__mobile {
   background: hsl(0deg, 0%, 0%);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: -5px;
   opacity: 0;
   visibility: hidden;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: 1;
   transition: opacity 150ms ease, left 150ms ease, visibility 150ms ease;
 }
@@ -154,6 +154,9 @@ html {
 
 #interactive__vr {
   padding: 64px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #interactive__vr img {
   max-width: 100%;
