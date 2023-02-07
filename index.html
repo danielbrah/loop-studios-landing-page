@@ -8,11 +8,12 @@
   <title>Frontend Mentor | Loopstudios landing page</title>
 </head>
 <body>
+  <script src="js/script.js" defer></script>
   <div id="container">
     <div id="hero">
       <div id="hero__nav">
         <img src="images/logo.svg" alt="Image of logo" width="192" height="32">
-        <img class="mobile" src="images/icon-hamburger.svg" alt="Hamburger icon">
+        <img class="mobile" id="nav-open" src="images/icon-hamburger.svg" alt="Hamburger icon">
         <div id="hero__nav__menu__desktop">
           <p>About</p>
           <p>Careers</p>
@@ -23,7 +24,8 @@
 
         <div class="mobile" id="hero__nav__menu__mobile">
           <div id="hero__nav__menu__mobile__header">
-            <img src="images/logo.svg" alt="Image of logo" width="192" height="32">
+            <img src="images/logo.svg" alt="Image of logo" width="150" height="auto">
+            <img id="nav-close" src="images/icon-close.svg" alt="Close icon">
           </div>
 
           <div id="hero__nav__menu__mobile__wrapper">

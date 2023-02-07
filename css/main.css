@@ -34,7 +34,7 @@ html {
   text-transform: uppercase;
 }
 #hero__nav__menu__mobile__wrapper p {
-  font-size: 32px;
+  font-size: 25px;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -110,14 +110,20 @@ html {
   background: hsl(0deg, 0%, 0%);
   position: absolute;
   top: 0;
-  left: 0;
+  left: -5px;
+  opacity: 0;
+  visibility: hidden;
   width: 100%;
   height: 100%;
   z-index: 1;
-  display: none;
+  transition: opacity 150ms ease, left 150ms ease, visibility 150ms ease;
 }
 #hero__nav__menu__mobile__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding-left: 32px;
+  padding-right: 32px;
   padding-top: 48px;
 }
 #hero__nav__menu__mobile__wrapper {

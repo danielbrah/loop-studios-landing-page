@@ -4,15 +4,21 @@
     background: $black;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -5px;
+    opacity: 0;
+    visibility: hidden;
     width: 100%;
     height: 100%;
     z-index: 1;
-    display: none;
+    transition: opacity 150ms ease, left 150ms ease, visibility 150ms ease;
 
     &__header
     {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding-left: 32px;
+        padding-right: 32px;
         padding-top: 48px;
     }
 
