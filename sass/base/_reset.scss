@@ -6,8 +6,10 @@
 }
 
 .mobile{display: block;}
+.desktop{display: none;}
 
 @media only screen and (min-width: 1440px)
 {
     .mobile{display: none;}
+    .desktop{display: block;}
 }

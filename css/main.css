@@ -9,9 +9,16 @@
   display: block;
 }
 
+.desktop {
+  display: none;
+}
+
 @media only screen and (min-width: 1440px) {
   .mobile {
     display: none;
+  }
+  .desktop {
+    display: block;
   }
 }
 html {
@@ -167,6 +174,27 @@ html {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+}
+
+@media only screen and (min-width: 1440px) {
+  #interactive__vr {
+    position: relative;
+    padding: 0;
+    margin: 160px auto;
+    height: 500px;
+    width: 1112px;
+  }
+  #interactive__vr img {
+    left: 0;
+  }
+  #interactive__vr > * {
+    position: absolute;
+  }
+  #interactive__vr__text {
+    background: hsl(0deg, 0%, 100%);
+    bottom: 0;
+    right: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

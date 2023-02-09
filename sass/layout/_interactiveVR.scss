@@ -1,3 +1,4 @@
+@import '../abstracts/colors';
 #interactive__vr
 {
     padding: 64px 16px;
@@ -14,5 +15,32 @@
         flex-direction: column;
         align-items: center;
         gap: 16px;
+    }
+}
+
+@media only screen and (min-width: 1440px)
+{
+    #interactive__vr
+    {
+        position: relative;
+        padding: 0;
+        margin: 160px auto;
+        height: 500px;
+        width: 1112px;
+
+        img{
+            left: 0;
+        }
+
+        > *{
+            position: absolute;
+        }
+
+        &__text
+        {
+            background: $white;
+            bottom: 0;
+            right: 0;
+        }
     }
 }
