@@ -47,17 +47,30 @@ html {
 #interactive__vr__text {
   text-align: center;
 }
-#interactive__vr__text h3 {
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
-  font-size: 32px;
-  color: hsl(0deg, 0%, 0%);
+#interactive__vr__text__heading {
+  font-family: "Josefin Sans", sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 32px !important;
+  color: hsl(0deg, 0%, 0%) !important;
+  line-height: 1.2 !important;
 }
 #interactive__vr__text p {
   font-family: "Alata", sans-serif;
   color: hsl(0deg, 0%, 55%);
   max-width: 30ch;
   line-height: 160%;
+}
+
+#our__creations {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+#our__creations__heading {
+  text-align: center;
+}
+
+.see__all {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -67,14 +80,21 @@ html {
   #interactive__vr__text {
     text-align: left;
   }
-  #interactive__vr__text h3 {
-    font-size: 40px;
-    max-width: 14ch;
+  #interactive__vr__text__heading {
+    font-size: 42px !important;
+    max-width: 14ch !important;
   }
   #interactive__vr__text p {
     max-width: 46ch;
   }
 }
+.see__all {
+  background: none;
+  box-shadow: none;
+  border: solid hsl(0deg, 0%, 0%);
+  padding: 16px 16px;
+}
+
 #hero {
   height: 650px;
   overflow: hidden;
@@ -205,8 +225,9 @@ html {
     bottom: 0;
     right: 0;
     align-items: flex-start;
-    padding-top: 64px;
-    padding-left: 64px;
+    padding-top: 95px;
+    padding-left: 95px;
+    gap: 24px;
   }
 }
 

@@ -48,12 +48,13 @@ html{font-size: 15px;}
     &__text
     {
         text-align: center;
-        h3
+        &__heading
         {
-            font-family: $josefin;
-            text-transform: uppercase;
-            font-size: 32px;
-            color: $black;
+            font-family: $josefin !important;
+            text-transform: uppercase !important;
+            font-size: 32px !important;
+            color: $black !important;
+            line-height: 1.2 !important;
         }
         p
         {
@@ -63,6 +64,21 @@ html{font-size: 15px;}
             line-height: 160%;
         }
     }
+}
+
+#our__creations
+{
+    font-family: $josefin;
+    text-transform: uppercase;
+    &__heading
+    {
+        text-align: center;
+    }
+}
+
+.see__all
+{
+    font-family: $josefin;
 }
 
 @media only screen and (min-width: 1440px)
@@ -84,10 +100,10 @@ html{font-size: 15px;}
         {
             text-align: left;
 
-            h3
+            &__heading
             {
-                font-size: 40px;
-                max-width: 14ch;
+                font-size: 42px !important;
+                max-width: 14ch !important;
             }
 
             p{
