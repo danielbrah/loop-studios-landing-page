@@ -77,6 +77,24 @@ html{font-size: 15px;}
             }
         }
     }
+
+    #interactive__vr
+    {
+        &__text
+        {
+            text-align: left;
+
+            h3
+            {
+                font-size: 40px;
+                max-width: 14ch;
+            }
+
+            p{
+                max-width: 46ch;
+            }
+        }
+    }
 }
 
 

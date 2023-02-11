@@ -64,6 +64,16 @@ html {
   #hero__text p {
     font-size: 72px;
   }
+  #interactive__vr__text {
+    text-align: left;
+  }
+  #interactive__vr__text h3 {
+    font-size: 40px;
+    max-width: 14ch;
+  }
+  #interactive__vr__text p {
+    max-width: 46ch;
+  }
 }
 #hero {
   height: 650px;
@@ -194,6 +204,9 @@ html {
     background: hsl(0deg, 0%, 100%);
     bottom: 0;
     right: 0;
+    align-items: flex-start;
+    padding-top: 64px;
+    padding-left: 64px;
   }
 }
 
