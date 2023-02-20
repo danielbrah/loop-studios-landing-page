@@ -69,10 +69,6 @@ html {
   text-align: center;
 }
 
-.see__all {
-  font-family: "Josefin Sans", sans-serif;
-}
-
 @media only screen and (min-width: 1440px) {
   #hero__text p {
     font-size: 72px;
@@ -87,12 +83,27 @@ html {
   #interactive__vr__text p {
     max-width: 46ch;
   }
+  .see__all {
+    font-family: "Alata", sans-serif;
+  }
+  .see__all p {
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
+  .see__all:hover p {
+    color: white;
+  }
 }
 .see__all {
   background: none;
   box-shadow: none;
   border: solid hsl(0deg, 0%, 0%);
-  padding: 16px 16px;
+  padding: 8px 32px;
+  cursor: pointer;
+  transition: color 100ms ease, background 100ms ease;
+}
+.see__all:hover {
+  background: hsl(0deg, 0%, 0%);
 }
 
 #hero {
@@ -228,6 +239,22 @@ html {
     padding-top: 95px;
     padding-left: 95px;
     gap: 24px;
+  }
+}
+#our__creations {
+  max-width: 275px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1440px) {
+  #our__creations {
+    max-width: none;
+    width: 1112px;
+  }
+  #our__creations__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
