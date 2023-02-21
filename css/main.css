@@ -69,6 +69,11 @@ html {
   text-align: center;
 }
 
+.oc__option p {
+  color: white;
+  font-size: 24px;
+}
+
 @media only screen and (min-width: 1440px) {
   #hero__text p {
     font-size: 72px;
@@ -104,6 +109,21 @@ html {
 }
 .see__all:hover {
   background: hsl(0deg, 0%, 0%);
+}
+
+.oc__option {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.oc__option img {
+  max-width: 100%;
+}
+.oc__option p {
+  position: absolute;
+  z-index: 2;
+  bottom: 16px;
+  left: 16px;
 }
 
 #hero {
@@ -242,7 +262,7 @@ html {
   }
 }
 #our__creations {
-  max-width: 275px;
+  max-width: 300px;
   margin: 0 auto;
 }
 

@@ -1,0 +1,18 @@
+.oc__option
+{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    img
+    {
+        max-width: 100%;
+    }
+
+    p
+    {
+        position: absolute;
+        z-index: 2;
+        bottom: 16px;
+        left: 16px;
+    }
+}
