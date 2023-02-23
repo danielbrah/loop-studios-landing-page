@@ -4,9 +4,17 @@
     background: none;
     box-shadow: none;
     border: solid $black;
-    padding: 8px 32px;
     cursor: pointer;
-    transition: color 100ms ease, background 100ms ease;
+    width: 165px;
+    padding: 8px 0;
+}
 
-    &:hover{background: $black;}
+@media only screen and (min-width: 1440px){
+    .see__all
+    {
+        width: auto;
+        padding: 8px 32px;
+        &:hover{background: $black;}
+        transition: color 100ms ease, background 100ms ease;
+    }
 }

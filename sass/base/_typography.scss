@@ -85,6 +85,16 @@ html{font-size: 15px;}
     }
 }
 
+.see__all
+{
+    font-family: $alata;
+    p
+    {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+}
+
 @media only screen and (min-width: 1440px)
 {
     #hero
@@ -118,13 +128,6 @@ html{font-size: 15px;}
 
     .see__all
     {
-        font-family: $alata;
-        p
-        {
-            font-size: 16px;
-            letter-spacing: 4px;
-        }
-
         &:hover p {
             color: white;
         }

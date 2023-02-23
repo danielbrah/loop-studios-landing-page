@@ -74,6 +74,14 @@ html {
   font-size: 24px;
 }
 
+.see__all {
+  font-family: "Alata", sans-serif;
+}
+.see__all p {
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
 @media only screen and (min-width: 1440px) {
   #hero__text p {
     font-size: 72px;
@@ -88,13 +96,6 @@ html {
   #interactive__vr__text p {
     max-width: 46ch;
   }
-  .see__all {
-    font-family: "Alata", sans-serif;
-  }
-  .see__all p {
-    font-size: 16px;
-    letter-spacing: 4px;
-  }
   .see__all:hover p {
     color: white;
   }
@@ -103,14 +104,21 @@ html {
   background: none;
   box-shadow: none;
   border: solid hsl(0deg, 0%, 0%);
-  padding: 8px 32px;
   cursor: pointer;
-  transition: color 100ms ease, background 100ms ease;
-}
-.see__all:hover {
-  background: hsl(0deg, 0%, 0%);
+  width: 165px;
+  padding: 8px 0;
 }
 
+@media only screen and (min-width: 1440px) {
+  .see__all {
+    width: auto;
+    padding: 8px 32px;
+    transition: color 100ms ease, background 100ms ease;
+  }
+  .see__all:hover {
+    background: hsl(0deg, 0%, 0%);
+  }
+}
 .oc__option {
   display: flex;
   position: relative;
@@ -277,6 +285,7 @@ html {
 #our__creations__options {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 32px;
 }
 
