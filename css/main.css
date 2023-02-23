@@ -299,6 +299,11 @@ html {
     align-items: center;
     justify-content: space-between;
   }
+  #our__creations__options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
