@@ -125,6 +125,12 @@ html {
   bottom: 16px;
   left: 16px;
 }
+.oc__option .option__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.6));
+}
 
 #hero {
   height: 650px;
@@ -264,6 +270,14 @@ html {
 #our__creations {
   max-width: 300px;
   margin: 0 auto;
+}
+#our__creations__heading {
+  margin-bottom: 48px;
+}
+#our__creations__options {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 @media only screen and (min-width: 1440px) {
