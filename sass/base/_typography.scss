@@ -95,6 +95,17 @@ html{font-size: 15px;}
     }
 }
 
+#footer__first__section__links
+{
+    p
+    {
+        font-family: $alata;
+        color: white;
+        text-align: center;
+    }
+}
+
+
 @media only screen and (min-width: 1440px)
 {
     #hero

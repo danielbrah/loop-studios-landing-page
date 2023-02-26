@@ -82,6 +82,12 @@ html {
   letter-spacing: 4px;
 }
 
+#footer__first__section__links p {
+  font-family: "Alata", sans-serif;
+  color: white;
+  text-align: center;
+}
+
 @media only screen and (min-width: 1440px) {
   #hero__text p {
     font-size: 72px;
@@ -312,6 +318,40 @@ html {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 4;
+  }
+}
+footer {
+  background: black;
+  padding: 64px 0;
+}
+footer #footer__content__wrapper {
+  max-width: 300px;
+  margin: 0 auto;
+}
+footer #footer__content__wrapper > * {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer #footer__content__wrapper #footer__first__section {
+  gap: 32px;
+}
+footer #footer__content__wrapper #footer__first__section__links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media only screen and (min-width: 1440px) {
+  footer #footer__content__wrapper {
+    max-width: none;
+    width: 1112px;
+  }
+  footer #footer__content__wrapper #footer__first__section {
+    align-items: flex-start;
+  }
+  footer #footer__content__wrapper #footer__first__section__links {
+    flex-direction: row;
   }
 }
 

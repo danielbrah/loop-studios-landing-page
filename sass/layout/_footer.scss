@@ -1,0 +1,46 @@
+footer
+{
+    background: black;
+    padding: 64px 0;
+    #footer__content__wrapper
+    {
+        max-width: 300px;
+        margin: 0 auto;
+
+        > * {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #footer__first__section
+        {
+            gap: 32px;
+            &__links
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    footer{
+        #footer__content__wrapper
+        {
+            max-width: none;
+            width: 1112px;
+
+            #footer__first__section
+            {
+                align-items: flex-start;
+                &__links
+                {
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+}
