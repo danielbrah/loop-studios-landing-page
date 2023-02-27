@@ -369,12 +369,36 @@ footer #footer__content__wrapper #footer__second__section #social {
   footer #footer__content__wrapper #footer__first__section__links {
     flex-direction: row;
   }
+  footer #footer__content__wrapper #footer__first__section__links p {
+    cursor: pointer;
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 0 3px;
+    background-position: bottom center;
+    transition: background-size 100ms ease;
+    padding-bottom: 8px;
+  }
+  footer #footer__content__wrapper #footer__first__section__links p:hover {
+    background-size: 50% 3px;
+  }
   footer #footer__content__wrapper #footer__second__section {
     margin-top: 0;
     gap: 32px;
   }
   footer #footer__content__wrapper #footer__second__section #social {
     margin-bottom: 0;
+  }
+  footer #footer__content__wrapper #footer__second__section #social img {
+    cursor: pointer;
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 0 3px;
+    background-position: bottom center;
+    transition: background-size 100ms ease;
+    padding-bottom: 8px;
+  }
+  footer #footer__content__wrapper #footer__second__section #social img:hover {
+    background-size: 90% 2px;
   }
 }
 

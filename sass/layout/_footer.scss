@@ -53,6 +53,21 @@ footer
                 &__links
                 {
                     flex-direction: row;
+
+                    p
+                    {
+                        cursor: pointer;
+                        background-image: linear-gradient(white, white);
+                        background-repeat: no-repeat;
+                        background-size: 0 3px;
+                        background-position: bottom center;
+                        transition: background-size 100ms ease;
+                        padding-bottom: 8px;
+    
+                        &:hover{
+                            background-size: 50% 3px;
+                        }
+                    }
                 }
             }
 
@@ -60,7 +75,24 @@ footer
             {
                 margin-top: 0;
                 gap: 32px;
-                #social{margin-bottom: 0;}
+                #social
+                {
+                    margin-bottom: 0;
+                    img
+                    {
+                        cursor: pointer;
+                        background-image: linear-gradient(white, white);
+                        background-repeat: no-repeat;
+                        background-size: 0 3px;
+                        background-position: bottom center;
+                        transition: background-size 100ms ease;
+                        padding-bottom: 8px;
+    
+                        &:hover{
+                            background-size: 90% 2px;
+                        }
+                    }
+                }
             }
         }
     }
