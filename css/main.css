@@ -255,7 +255,7 @@ html {
 }
 
 #interactive__vr {
-  padding: 64px 16px;
+  padding: 140px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -297,7 +297,7 @@ html {
 }
 #our__creations {
   max-width: 300px;
-  margin: 160px auto;
+  margin: 0 auto 160px auto;
 }
 #our__creations__heading {
   margin-bottom: 48px;
