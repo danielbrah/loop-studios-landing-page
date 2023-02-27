@@ -23,6 +23,17 @@ footer
                 gap: 24px;
             }
         }
+
+        #footer__second__section
+        {
+            margin-top: 48px;
+            #social
+            {
+                display: flex;
+                gap: 24px;
+                margin-bottom: 16px;
+            }
+        }
     }
 }
 
@@ -30,6 +41,9 @@ footer
     footer{
         #footer__content__wrapper
         {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             max-width: none;
             width: 1112px;
 
@@ -40,6 +54,13 @@ footer
                 {
                     flex-direction: row;
                 }
+            }
+
+            #footer__second__section
+            {
+                margin-top: 0;
+                gap: 32px;
+                #social{margin-bottom: 0;}
             }
         }
     }

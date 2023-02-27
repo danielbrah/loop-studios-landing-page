@@ -88,6 +88,11 @@ html {
   text-align: center;
 }
 
+#footer__second__section p {
+  color: hsl(0deg, 0%, 55%);
+  font-family: "Alata", sans-serif;
+}
+
 @media only screen and (min-width: 1440px) {
   #hero__text p {
     font-size: 72px;
@@ -341,9 +346,20 @@ footer #footer__content__wrapper #footer__first__section__links {
   flex-direction: column;
   gap: 24px;
 }
+footer #footer__content__wrapper #footer__second__section {
+  margin-top: 48px;
+}
+footer #footer__content__wrapper #footer__second__section #social {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 16px;
+}
 
 @media only screen and (min-width: 1440px) {
   footer #footer__content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     max-width: none;
     width: 1112px;
   }
@@ -352,6 +368,13 @@ footer #footer__content__wrapper #footer__first__section__links {
   }
   footer #footer__content__wrapper #footer__first__section__links {
     flex-direction: row;
+  }
+  footer #footer__content__wrapper #footer__second__section {
+    margin-top: 0;
+    gap: 32px;
+  }
+  footer #footer__content__wrapper #footer__second__section #social {
+    margin-bottom: 0;
   }
 }
 
