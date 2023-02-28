@@ -73,6 +73,7 @@ html{font-size: 15px;}
     &__heading
     {
         text-align: center;
+        & > p{font-size: 48px;}
     }
 }
 
@@ -143,6 +144,11 @@ html{font-size: 15px;}
                 max-width: 46ch;
             }
         }
+    }
+
+    #our__creations
+    {
+        &__heading{& > p{font-size: 48px;}}
     }
 
     .see__all

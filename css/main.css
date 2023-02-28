@@ -68,6 +68,9 @@ html {
 #our__creations__heading {
   text-align: center;
 }
+#our__creations__heading > p {
+  font-size: 48px;
+}
 
 .oc__option p {
   color: white;
@@ -106,6 +109,9 @@ html {
   }
   #interactive__vr__text p {
     max-width: 46ch;
+  }
+  #our__creations__heading > p {
+    font-size: 48px;
   }
   .see__all:hover p {
     color: white;
@@ -318,6 +324,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 64px;
   }
   #our__creations__options {
     display: grid;
